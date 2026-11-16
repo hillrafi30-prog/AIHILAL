@@ -1,0 +1,12 @@
+{
+  "name": "aihilal",
+  "version": "1.0.1",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c blue,green \"npm run dev --workspace=aihilal-backend\" \"npm run dev --workspace=aihilal-frontend\"",
+    "build": "npm run build --workspace=aihilal-frontend",
+    "start:api": "npm run start --workspace=aihilal-backend"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
