@@ -60,3 +60,7 @@ COCO-SSD mendeteksi objek umum (bukan mendeteksi gambar AI). Deteksi gambar AI v
 - `frontend/src/components`: komponen UI dan animasi.
 - `backend/routes`: endpoint API.
 - `backend/services`: logika analisis.
+
+## Catatan
+
+aplikasi ini masih bersifat tahap awal
